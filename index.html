@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exordium Games Assignment</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.theme.css">
+  </head>
+
+  <body>
+    <div id="quiz">
+      <div id="interaction">
+        <h2>Questions:</h2>
+        <p class="question">Sta su kriptovalute i kako funkcionisu?</p>
+        <div class="answers">
+          <label>
+            <input type="checkbox" name="answer" value="a" />
+            Kriptovalute su digitalni novac koji se ne kontrolise od strane centralnih banaka i moze se koristiti za kupovinu robe i usluga na internetu.
+          </label>
+          <label>
+            <input type="checkbox" name="answer" value="d" />
+            Kriptovalute su zlato koje se nalazi u virtuelnom svetu i mogu se kupiti na berzi.
+          </label>
+          <label>
+            <input type="checkbox" name="answer" value="c" />
+            Kriptovalute su tajanstvene lozinke koje se koriste za pristup skrivenim delovima interneta.
+          </label>
+          <label>
+            <input type="checkbox" name="answer" value="b" />
+            Kriptovalute su digitalni novac.
+          </label>
+        </div>
+
+        <p class="question">Who are the top two NBA players with the most points scored in league history?</p>
+        <div class="answers">
+          <label>
+            <input type="checkbox" name="answer" value="b" />
+            Kareem Abdul-Jabbar
+          </label>
+          <label>
+            <input type="checkbox" name="answer" value="c" />
+            Kobe Bryant 
+          </label>
+          <label>
+            <input type="checkbox" name="answer" value="a" />
+            LeBron James
+          </label>
+          <label>
+            <input type="checkbox" name="answer" value="d" />
+            Wilt Chamberlain
+          </label>
+        </div>
+
+        <p class="question">Which of the following countries are located in South America?</p>
+        <div class="answers">
+          <label>
+            <input type="checkbox" name="answer" value="c" />
+            Mexico
+          </label>
+          <label>
+            <input type="checkbox" name="answer" value="a" />
+            Brazil
+          </label>
+          <label>
+            <input type="checkbox" name="answer" value="d" />
+            CAnada
+          </label>
+          <label>
+            <input type="checkbox" name="answer" value="b" />
+            Australia
+          </label>
+        </div>
+        <div class="buttons">
+          <button class="check ui-button ui-widget ui-corner-all">Check</button>
+          <button class="show-answers inactive ui-button ui-widget ui-corner-all">Show Answers</button>
+          <button class="reset ui-button ui-widget ui-corner-all">Reset</button>
+          
+           
+          
+        </div>
+      </div>
+    </div>
+    <div id="results"></div>
+
+    <script src="index.js"></script>
+    <script src="jquery-3.6.4.min.js"></script>
+  </body>
+</html>
