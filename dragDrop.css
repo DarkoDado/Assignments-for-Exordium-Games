@@ -1,0 +1,60 @@
+/* Osnovni stilovi */
+#osnovni-kontejner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .element {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+    cursor: move;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .sezone {
+    background-color: #ddd;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  /* Stilovi za hover i aktivno stanje */
+  .element:hover {
+    background-color: #eee;
+  }
+  
+  .sezone:hover {
+    background-color: #ccc;
+  }
+  
+  .element:active,
+  .sezone:active {
+    border-color: #f00;
+  }
+  
+  /* Stilovi za ui-draggable */
+  .ui-draggable-dragging {
+    opacity: 0.5;
+  }
+
+  
+  

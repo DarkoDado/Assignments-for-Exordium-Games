@@ -55,7 +55,30 @@ body {
     font-weight: bold;
 }
 
-.buttons {
-    margin: 15px 5px;
-    font-size: 18px;
-}
+
+
+.dugmad {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .dugmad button {
+    background-color: #0077cc;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 180px;
+  }
+  
+  .dugmad button:hover {
+    background-color: #005fa3;
+  }
+  
+  .dugmad button:active {
+    background-color: #004a80;
+  }
