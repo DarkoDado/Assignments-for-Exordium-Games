@@ -1,60 +1,87 @@
-/* Osnovni stilovi */
-#osnovni-kontejner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .element {
-    background-color: #fff;
-    border: 2px solid #000;
-    border-radius: 5px;
-    box-sizing: border-box;
-    color: #000;
-    cursor: move;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    height: 50px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    width: 150px;
-  }
-  
-  .sezone {
-    background-color: #ddd;
-    border: 2px solid #000;
-    border-radius: 5px;
-    box-sizing: border-box;
-    color: #000;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    height: 100px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    width: 200px;
-  }
-  
-  /* Stilovi za hover i aktivno stanje */
-  .element:hover {
-    background-color: #eee;
-  }
-  
-  .sezone:hover {
-    background-color: #ccc;
-  }
-  
-  .element:active,
-  .sezone:active {
-    border-color: #f00;
-  }
-  
-  /* Stilovi za ui-draggable */
-  .ui-draggable-dragging {
-    opacity: 0.5;
-  }
+/* postavljanje pozadine */
+body {
+  background-color: #f0f0f0;
+}
 
-  
-  
+/* stiliziranje glavnog kontejnera */
+
+
+/* stiliziranje elementa */
+.element {
+  background-color: #ffcc80;
+  border: 1px solid #ff8f00;
+  color: #333;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: move;
+  border-radius: 5px;
+  width: 120px;
+}
+
+/* stiliziranje kontejnera za sezone */
+.season-container {
+  width: 170px;
+  height: 250px;
+  background-color: #e0e0e0;
+  border: 1px dashed #333;
+  float: left;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* stiliziranje naslova sezona */
+.season-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* stiliziranje gumba */
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+  background-color: #388e3c;
+}
+
+/* sakrivanje gumba */
+#show-answers-btn {
+  display: none;
+}
+
+
+.correct {
+  color: #fff;
+  background-color: var(--correct-color);
+}
+.correct::after {
+  content: '\2714'; /* Unicode karakter za kvačicu */
+  color: green;
+  font-weight: bold;
+  margin-left: 10px; /* Dodajte malo razmaka između teksta i ikonice */
+}
+
+.incorrect {
+  color: #fff;
+  background-color: var(--wrong-color);
+}
+.incorrect::after {
+  content: '\2718';
+  color: red;
+  margin-left: 10px;
+  font-weight: bold;
+}
