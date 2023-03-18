@@ -1,10 +1,17 @@
 /* postavljanje pozadine */
-body {
-  background-color: #f0f0f0;
-}
+
 
 /* stiliziranje glavnog kontejnera */
-
+#main-container {
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 
 /* stiliziranje elementa */
 .element {
@@ -35,50 +42,30 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: var(--primary-color);
 }
 
-/* stiliziranje gumba */
-.buttons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.buttons button {
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin-right: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.buttons button:hover {
-  background-color: #388e3c;
-}
-
-/* sakrivanje gumba */
 #show-answers-btn {
   display: none;
 }
-
 
 .correct {
   color: #fff;
   background-color: var(--correct-color);
 }
+
 .correct::after {
-  content: '\2714'; /* Unicode karakter za kvačicu */
+  content: '\2714';
   color: green;
   font-weight: bold;
-  margin-left: 10px; /* Dodajte malo razmaka između teksta i ikonice */
+  margin-left: 10px;
 }
 
 .incorrect {
   color: #fff;
   background-color: var(--wrong-color);
 }
+
 .incorrect::after {
   content: '\2718';
   color: red;

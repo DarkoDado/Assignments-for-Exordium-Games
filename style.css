@@ -5,6 +5,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+
 }
 
 
@@ -24,6 +26,34 @@ body {
     --text-color: #333;
 }
 
+.theme2 {
+    background-color: var(--highlight-background-color);
+    color: var(--text-color);
+}
+
+select {
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+select option {
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #333;
+}
+
+select option:hover {
+    background-color: #66afe9;
+    color: #fff;
+}
 
 #main-container {
     display: flex;
@@ -39,6 +69,11 @@ body {
 .question {
     font-weight: bold;
     font-size: 18px;
+    color: rgb(253, 178, 89);
+}
+
+.theme2 .question {
+    color: var(--primary-color);
 }
 
 .answers label {
@@ -56,11 +91,9 @@ body {
 
 .correct::after {
     content: '\2714';
-    /* Unicode karakter za kvačicu */
     color: green;
     font-weight: bold;
     margin-left: 10px;
-    /* Dodajte malo razmaka između teksta i ikonice */
 }
 
 .incorrect {
@@ -76,41 +109,13 @@ body {
 }
 
 
-
-/* .dugmad {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .dugmad button {
-    background-color: #0077cc;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-    margin: 10px;
-    padding: 10px;
-    width: 180px;
-  }
-  
-  .dugmad button:hover {
-    background-color: #005fa3;
-  }
-  
-  .dugmad button:active {
-    background-color: #004a80;
-  } */
-
-
 .buttons {
     text-align: center;
     margin-top: 20px;
 }
 
 .buttons button {
-    background-color: #4caf50;
+    background-color: rgb(253, 178, 89);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -121,5 +126,21 @@ body {
 }
 
 .buttons button:hover {
-    background-color: #388e3c;
+    background-color: rgb(230, 172, 96);
+}
+
+.buttons button:hover {
+    transform: translateY(-5%);
+}
+
+.theme2 .question {
+    color: var(--primary-color);
+}
+
+.theme2 .buttons button {
+    background-color: var(--primary-color);
+}
+
+.theme2 .buttons button:hover {
+    background-color: var(--secondary-color);
 }

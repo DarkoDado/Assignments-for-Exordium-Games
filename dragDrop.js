@@ -36,7 +36,7 @@ $(document).ready(function() {
       $(this).addClass('correct').removeClass('incorrect');
       $(this).siblings('.answer-status').html('&#x2713;').addClass('correct').removeClass('incorrect'); // add checkmark and remove cross
     });
-    $('#check-btn').text('Correct');
+    // $('#check-btn').text('Correct');
     $('#show-answers-btn').hide();
   }
 
@@ -67,10 +67,8 @@ $(document).ready(function() {
       }
     });
     if (wrongItems.length == 0) {
-      $('#check-btn').text('Correct');
       $('#show-answers-btn').hide();
     } else {
-      $('#check-btn').text('Check');
       if (clickCount == 2) {
         $('#show-answers-btn').show();
       }

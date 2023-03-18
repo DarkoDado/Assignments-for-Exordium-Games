@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seasons Sorting Game</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="dragDrop.css" />
+    <link rel="stylesheet" href="style.css" />
+
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
   </head>
   <body>
+    <select id="theme-selector">
+      <option value="theme1">Visual Theme 1</option>
+      <option value="theme2">Visual Theme 2</option>
+    </select>
     <div id="main-container">
       <div id="initial-container">
         <div class="element" data-season="summer">Sea</div>
@@ -52,5 +57,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
     <script src="dragDrop.js"></script>
+    <script src="theme.js"></script>
   </body>
 </html>
