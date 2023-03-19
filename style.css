@@ -176,11 +176,9 @@ a:hover {
 
 .buttons button:hover {
     background-color: rgb(230, 172, 96);
-}
-
-.buttons button:hover {
     transform: translateY(-5%);
 }
+
 
 .theme2 .question {
     color: var(--primary-color);
@@ -192,6 +190,28 @@ a:hover {
 
 .theme2 .buttons button:hover {
     background-color: var(--secondary-color);
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    font-size: 24px;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:active,
+footer a:visited {
+    color: red;
+}
+
+footer a:hover {
+    color: red;
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 3px;
 }
 
 @media screen and (max-width: 576px) {}

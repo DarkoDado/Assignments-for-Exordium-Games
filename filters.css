@@ -1,12 +1,13 @@
 aside {
     display: block;
     min-width: 30%;
+    max-width: 32%;
     align-items: center;
     padding: 1rem;
     background-color: #ccc;
 }
-  
-  #game-catalog {
+
+#game-catalog {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -14,56 +15,94 @@ aside {
     max-width: 1200px;
     margin: 0px auto;
 }
-  
-  .game-card {
+
+.game-card {
     width: calc((100% - 2rem) / 3);
     background-color: #eee;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  .game {
+}
+
+.game {
     max-width: 250px;
     padding: 15px 30px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.1);
     margin: 0px auto;
     margin-bottom: 20px;
-  }
-  .game:hover {
+}
+
+.game:hover {
     background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.7);
-  }
+}
 
-  .game-card img {
+.game-card img {
     width: 100%;
-  }
-  
-  .game-card .name {
+}
+
+.game-card .name {
     font-weight: bold;
     margin: 0.5rem;
-  }
-  
-  .game-card .description {
+}
+
+.game-card .description {
     margin: 0.5rem;
-  }
-  
-  #filter-by-name {
+}
+
+#filter-by-name {
     align-items: center;
     padding: 1rem;
     background-color: #ddd;
     border-radius: 5px;
     margin-top: 15px;
 }
-  
+
 .gameCard {
     color: red;
     font-size: 24px;
 }
+
 .zanrStil {
     font-weight: bold;
 }
-  
-  #filter-by-name input {
+
+
+.styleButton,
+.genreButton {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+    display: block;
+    margin-top: 10px;
+}
+
+.theme2 .styleButton,
+.theme2 .genreButton {
+    background-color: rgb(63, 207, 152);
+}
+
+.theme2 .genreButton:hover,
+.theme2 .styleButton:hover {
+    transform: translateY(-5%);
+    background-color: rgb(81, 246, 152);
+}
+
+.genreButton:hover,
+.styleButton:hover {
+    transform: translateY(-5%);
+    background-color: rgb(230, 172, 96);
+}
+#reset-filters {
+    background-color: red;
+}
+
+#filter-by-name input {
     flex: 1;
     margin: 20px 0;
     padding: 8px;
@@ -72,24 +111,21 @@ aside {
     transition: .2s ease-in-out all;
     margin-right: 10px;
 }
+
 .theme2 #filter-by-name input {
     border: 1px solid rgb(63, 207, 152);
 }
-  #filter-by-name input[type=text]:focus {
+
+#filter-by-name input[type=text]:focus {
     padding: 10px 8px;
     outline: none;
-  }
-  
-  #reset-input-button {
+}
+
+#reset-input-button {
     background-color: #f00;
     color: #fff;
     border: none;
     border-radius: 0.3rem;
     padding: 0.5rem 1rem;
     cursor: pointer;
-  }
-  
-
-  
-
-  
+}
