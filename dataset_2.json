@@ -1,12 +1,12 @@
 {
-    "Fortnite": {"genre": "Battle royale", "style": "Cartoonish", "url": "game03.png"},
-    "Overwatch": {"genre": "First-person shooter", "style": "Cartoonish", "url": "game04.png"},
-    "Destiny 2": {"genre": "First-person shooter", "style": "Sci-fi", "url": "game05.png"},
-    "Halo: The Master Chief Collection": {"genre": "First-person shooter", "style": "Sci-fi", "url": "game06.png"},
-    "Grand Theft Auto V": {"genre": "Action-adventure", "style": "Realistic", "url": "game07.png"},
-    "The Witcher 3: Wild Hunt": {"genre": "Action role-playing", "style": "Fantasy", "url": "game08.png"},
-    "Minecraft": {"genre": "Sandbox", "style": "Blocky", "url": "game09.png"},
-    "Terraria": {"genre": "Sandbox", "style": "Blocky", "url": "game10.png"},
-    "Fallout 4": {"genre": "Action role-playing", "style": "Post-apocalyptic", "url": "game11.png"},
-    "The Last of Us Part II": {"genre": "Action-adventure", "style": "Post-apocalyptic", "url": "game12.png"}
+    "Fortnite": {"genre": "Battle royale", "style": "Cartoonish", "url": "https://exordiumgames.com/jobs/frontend/game03.png"},
+    "Overwatch": {"genre": "First-person shooter", "style": "Cartoonish", "url": "https://exordiumgames.com/jobs/frontend/game04.png"},
+    "Destiny 2": {"genre": "First-person shooter", "style": "Sci-fi", "url": "https://exordiumgames.com/jobs/frontend/game05.png"},
+    "Halo: The Master Chief Collection": {"genre": "First-person shooter", "style": "Sci-fi", "url": "https://exordiumgames.com/jobs/frontend/game06.png"},
+    "Grand Theft Auto V": {"genre": "Action-adventure", "style": "Realistic", "url": "https://exordiumgames.com/jobs/frontend/game07.png"},
+    "The Witcher 3: Wild Hunt": {"genre": "Action role-playing", "style": "Fantasy", "url": "https://exordiumgames.com/jobs/frontend/game08.png"},
+    "Minecraft": {"genre": "Sandbox", "style": "Blocky", "url": "https://exordiumgames.com/jobs/frontend/game09.png"},
+    "Terraria": {"genre": "Sandbox", "style": "Blocky", "url": "https://exordiumgames.com/jobs/frontend/game10.png"},
+    "Fallout 4": {"genre": "Action role-playing", "style": "Post-apocalyptic", "url": "https://exordiumgames.com/jobs/frontend/game11.png"},
+    "The Last of Us Part II": {"genre": "Action-adventure", "style": "Post-apocalyptic", "url": "https://exordiumgames.com/jobs/frontend/game12.png"}
     }

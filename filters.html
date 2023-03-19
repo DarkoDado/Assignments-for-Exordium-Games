@@ -20,6 +20,8 @@
       rel="stylesheet"
       href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.theme.css"
     />
+
+    
   </head>
 
   <body>
@@ -38,32 +40,44 @@
     </header>
 
     <div id="main-container">
-      <header>
+      <aside>
         <h1>Games Catalog</h1>
         <label for="dataset-select">Select dataset:</label>
         <select id="dataset-select">
           <option value="dataset_1.json" selected>Dataset 1</option>
           <option value="dataset_2.json">Dataset 2</option>
         </select>
-        <button id="reset-filters-button">Reset all filters</button>
-      </header>
-      <div id="filter-by-name">
-        <label for="game-name-input">Filter games by name:</label>
-        <input type="text" id="game-name-input" />
-        <button id="reset-input-button">Reset input</button>
-      </div>
-      <div id="game-filters">
-        <div id="genre-filter">
-          <h2>Filter by genre:</h2>
-          <div id="genre-filter-options"></div>
+        
+        <div id="filter-by-name">
+            <div class="buttons">
+            <label for="game-name-input">Filter games by name:</label>
+            <input type="text" id="game-name-input" placeholder="Search..."/>
+           
+            <button id="reset-button">Reset input</button>
         </div>
-        <div id="style-filter">
-          <h2>Filter by style:</h2>
-          <div id="style-filter-options"></div>
         </div>
-      </div>
-      <div id="game-catalog"></div>
+          <div id="game-filters">
+            <div id="genre-filter">
+              <h2>Filter by genre:</h2>
+              <div id="genre-filter-options"></div>
+            </div>
+            <div id="style-filter">
+              <h2>Filter by style:</h2>
+              <div id="style-filter-options"></div>
+            </div>  
+            <div class="buttons">
+            <button>Reset all filters</button>
+        </div>
+           </aside>
+    
+    <div id="game-catalog"></div>
+    
     </div>
+     
+    
+  
+    </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
