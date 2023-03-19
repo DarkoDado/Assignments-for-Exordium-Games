@@ -1,0 +1,12 @@
+{
+    "League of Legends": {"genre": "Multiplayer online battle arena", "style": "Fantasy", "url": "https://exordiumgames.com/jobs/frontend/game01.png"},
+    "Dota 2": {"genre": "Multiplayer online battle arena", "style": "Fantasy", "url": "https://exordiumgames.com/jobs/frontend/game02.png"},
+    "Fortnite": {"genre": "Battle royale", "style": "Cartoonish", "url": "https://exordiumgames.com/jobs/frontend/game03.png"},
+    "Overwatch": {"genre": "First-person shooter", "style": "Cartoonish", "url": "https://exordiumgames.com/jobs/frontend/game04.png"},
+    "Destiny 2": {"genre": "First-person shooter", "style": "Sci-fi", "url": "https://exordiumgames.com/jobs/frontend/game05.png"},
+    "Halo: The Master Chief Collection": {"genre": "First-person shooter", "style": "Sci-fi", "url": "https://exordiumgames.com/jobs/frontend/game06.png"},
+    "Grand Theft Auto V": {"genre": "Action-adventure", "style": "Realistic", "url": "https://exordiumgames.com/jobs/frontend/game07.png"},
+    "The Witcher 3: Wild Hunt": {"genre": "Action role-playing", "style": "Fantasy", "url": "https://exordiumgames.com/jobs/frontend/game08.png"},
+    "Minecraft": {"genre": "Sandbox", "style": "Blocky", "url": "https://exordiumgames.com/jobs/frontend/game09.png"},
+    "Terraria": {"genre": "Sandbox", "style": "Blocky", "url": "https://exordiumgames.com/jobs/frontend/game10.png"}
+    }
